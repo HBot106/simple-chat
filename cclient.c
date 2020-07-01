@@ -638,7 +638,7 @@ void checkArgs(int argc, char* argv[])
 {
 	if (argc != 4)
 	{
-		printf("usage: %s host-name port-number \n", argv[0]);
+		printf("usage: %s <handle> <host-name> <port-number> \n", argv[0]);
 		exit(1);
 	}
 }
